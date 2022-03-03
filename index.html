@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -21,20 +22,46 @@
                         <ul class="header-top__list">
                             <li class="navbar__items header-top__list--separate"><a href="#">Seller Centre</a></li>
                             <li class="navbar__items header-top__list--separate"><a href="#">Join as Seller</a></li>
-                            <li class="navbar__items header-top__list--separate"><a href="#">Download</a></li>
+                            <li class="navbar__items header-top__list--separate download" ><a href="#">Download</a>
+                                <div class="qr_code">
+                                    <img class="img_qr" src="./assets/img/qr_code.png" alt="">
+                                    <div class="qr_app">
+                                        <div><img class="img_ast" src="./assets/img/app_store.png" alt=""></div>
+                                        <div><img class="img_ggpl" src="./assets/img/gg_play.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </li>
                             <li class="navbar__items">Follow us on
-                                <a href="#"></a>
-                                <a href="#"></a>
+                                <a href="#"><i class="header__navbar-icon fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="header__navbar-icon fa-brands fa-instagram"></i></a>
                             </li>
                         </ul>
                     </nav>
                     <nav class="header-top__navbar">
                         <ul class="header-top__list">
-                            <li class="navbar__items"><a href="#">Notifications</a></li>
-                            <li class="navbar__items"><a href="#">Help</a></li>
-                            <li class="navbar__items">English</li>
-                            <li class="navbar__items header-top__list--separate">Sign Up</li>
-                            <li class="navbar__items">Login</li>
+                            <li class="navbar__items">
+                                <div><i class="header__navbar-icon fa-solid fa-bell"></i>Notifications</div>
+                                <div class="header-Notify">
+                                    <div class="header-Notify__info">
+                                        <div><img src="./assets/img/wolf.jpg" alt=""></div>
+                                        <div>Login to view Notifications</div>
+                                    </div>
+                                    <div class="header-Notify__footer"> 
+                                        <div><a href="#">Sign Up</a></div>
+                                        <div><a href="#">Login</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="navbar__items"><a href="#"><i class="header__navbar-icon fa-regular fa-circle-question"></i>Help</a></li>
+                            <li class="navbar__items">English
+                                <i class="header__navbar-icon fa-solid fa-angle-down"></i>
+                                <div class="language">
+                                    <div><a href="#">English</a></div>
+                                    <div><a href="#">Tiếng Việt</a></div>
+                                </div>
+                            </li>
+                            <li class="navbar__items header-top__list--separate"><a href="#">Sign Up</a></li>
+                            <li class="navbar__items"><a href="#">Login</a></li>
                         </ul>
                     </nav>
                 </div>
